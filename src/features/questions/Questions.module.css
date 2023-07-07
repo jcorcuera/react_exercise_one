@@ -1,0 +1,38 @@
+.question {
+  width: 400px;
+  height: 160px;
+  display: block;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.question h2 {
+  text-align: center;
+  background-color: #9f4bd6;
+  font-size: 25px;
+  padding: 10px 0;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.optionList {
+  margin: 0;
+  background-color: darkgray;
+  padding: 10px;
+}
+
+.optionList li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.optionList li label {
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.optionList li input {
+  margin-right: 10px;
+}
